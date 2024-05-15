@@ -1,0 +1,57 @@
+@impor url('https://fonts.google.com/specimen/PT+Serif?query=serif');
+body {
+    font-family : var(--"PT Serif", serif);
+    max-width : 960px;
+    padding : 20px;
+}
+:root {
+    --primary-color: #00FAC8;
+    --second-color: #791F01;
+    --third-color: #006653;
+    --forth-color: #EAEBEA;
+    --accent1-color: #05177a;
+    --accent2-color: #e61a1a;
+
+    --heading-font: 'DM Serif Display', serif;
+    --paragrah-font: 'PT Serif', serif;
+
+    --nav-background-color: #eaebea;
+    --nav-link-color: #00fac8;
+    --nav-hever-hover-color: #0c22ec;
+    --nav-hover-backgroud-color: #6b6666;
+}
+body {
+    font-family: var(--paragrah-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: var(--heading-font);
+    color: var(--second-color);
+}
+header {
+    padding: 20px;
+    background-color:#00fac8;
+}
+p {
+    padding: 30px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: bvlock;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hever-hover-color);
+    background-color: var(--nav-hover-backgroud-color);
+}
