@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+body {
+    length: 1000px;
+}
+:root {
+    --primary-color: #00FAC8;
+    --second-color: #791F01;
+    --third-color: #006653;
+    --forth-color: #EAEBEA;
+    --accent1-color: #05177a;
+    --accent2-color: #e61a1a;
+    --heading-font: 'DM Serif Display', serif;
+    --paragrah-font: 'PT Serif', serif;
+}
+h1, h2 {
+    font: "DM Serif Display", Serif;
+    color:#791F01;
+}
+p {
+    font: "Noto Serif", Serif;
+    color: black;
+}
+div .hero {
+    position: relative;
+}
+h1 {
+    position: absolute;
+    background-color: transparent;
+    padding: 10px;
+    float: center;
+   
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article {
+    position: absolute;
+    background-color: #c6f8ee;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    float: center;
+}

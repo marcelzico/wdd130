@@ -42,3 +42,47 @@ h2 aside {
     top: 30px;
     left: 140px;
 }
+/* the week 04 modification */
+
+header, footer {
+    max-width: 840px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    background-color: aliceblue;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: yellowgreen;
+
+}
+h1 {
+    color: darkgoldenrod;
+    border-bottom: 2px solid ;
+}
+header, .grid, footer {
+    max-width: 1500px;
+    padding: 1rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main {
+    grid-column: 2/3;
+    margin: 0;
+}
+aside {
+    width: 20rem;
+    position:relative;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
